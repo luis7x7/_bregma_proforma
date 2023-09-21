@@ -1,0 +1,159 @@
+ /* botones */
+
+
+* {
+     font-family: 'Montserrat', sans-serif;
+}
+
+
+.const-sw {
+
+
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     height: 18.5px;
+     width: 37px;
+     top: 986px;
+     left: 1481px;
+     border-radius: 12.07px;
+     border: 0.4px solid #7B8794;
+     background-color: #FFFFFF;
+     transition: .3s all;
+}
+
+.const-sw.isSelected {
+     justify-content: flex-end;
+     border: 0.4px solid #4545BC;
+}
+
+.switch-br {
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: center;
+     height: 18.5px;
+     width: 18.5px;
+     top: 986px;
+     left: 1481px;
+     border-radius: 100%;
+     motion-rotation: 0;
+     border: 0.4px solid #7B8794;
+     background-color: #FFFFFF;
+     transition: .3s border;
+}
+
+.switch-br .isSelected {
+     border: 0.4px solid #4545BC;
+}
+
+.switch {
+     display: block;
+     height: 16.98px;
+     width: 16.98px;
+     top: 986.8px;
+     left: 1481.8px;
+     border-radius: 100%;
+     motion-rotation: 0;
+     background-color: #7B8794;
+     transition: .3s background-color;
+
+}
+
+.switch.isSelected {
+     background-color: #4545BC;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* seccion-servicio */
+ * {
+      font-family: 'Montserrat', sans-serif;
+ }
+
+ .pf-pt2 {
+      margin-top: 10px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      width: 1029px;
+      height: 75px;
+      top: 960px;
+      left: 839px;
+      border-radius: 14px;
+      background-color: #EBEFFD;
+      margin-bottom: 30px;
+ }
+
+ .pf-pt2-fecha {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      margin-right: 200px;
+ }
+
+ .pf-pt2-fecha .fecha {
+      margin-left: 20px;
+      margin-right: 10px;
+
+      width: 221px;
+      height: 19px;
+      top: 986px;
+      left: 865px;
+
+      font-weight: 400;
+      font-size: 13.5px;
+      line-height: 13.5px;
+      color: #5555D8;
+ }
+
+ .img-btn {
+      width: 32px;
+      height: 32px;
+ }
+
+ .servicios {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+ }
+
+ .serv-off {
+      width: 112px;
+      height: 19px;
+      top: 986px;
+      left: 1351px;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 400;
+      font-size: 13.5px;
+      line-height: 18.9px;
+      color: #5555D8;
+      margin-right: 10px;
+ }
+
+ .serv-on {
+      margin-left: 10px;
+      width: 96px;
+      height: 19px;
+      top: 986px;
+      left: 1527px;
+
+      font-weight: 400;
+      font-size: 13.5px;
+      line-height: 18.9px;
+      color: #4545BC;
+      margin-right: 10px;
+ }
