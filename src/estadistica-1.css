@@ -1,0 +1,190 @@
+/* estadisticas */
+
+/* estadisticas header*/
+*{
+     font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+     display: flex;
+     flex-direction: column;
+     
+     align-items: center;
+     margin-top: 10px;
+     width: 1029px;
+          height: 407px;
+          top: 496px;
+          left: 839px;
+          border-radius: 14px;
+          background-color: #EBEFFD;
+}
+.cont-header{
+     text-align: center;
+justify-content: space-between;
+     display: flex;
+          flex-direction: row;
+     
+          align-items: center;
+     margin-top: 10px;
+     width: 1000px;
+          height: 45px;
+          border-radius: 6px; 
+              
+}
+.montos{
+     text-align: center;
+          
+          display: flex;
+          flex-direction: row;
+     
+          align-items: center;
+}
+.monto-1 {
+     margin-right:20px ;
+     display: grid;
+          place-items: center;
+     width: 239px;
+          height: 33px;
+          top: 507px;
+          left: 1109px;
+          border-radius: 6px;
+          background-color:#FFFFFF;
+          font-family: 'Montserrat', sans-serif;
+               font-weight: 300;
+               font-size: 14px;
+                    line-height: 17.07px;
+                    color: #5555D8;
+}
+ .monto-2{
+     display: grid;
+          place-items: center;
+     width: 239px;
+          height: 33px;
+          top: 507px;
+          left: 852px;
+          border-radius: 6px;
+          background-color: #FFFFFF;
+          font-family: 'Montserrat', sans-serif;
+               font-weight: 300;
+               font-size: 14px;
+               line-height: 17.07px;
+               color: #5555D8;
+     }
+ .reporte{
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: center;
+     width: 114px;
+          height: 33px;
+          top: 507px;
+          left: 1741px;
+          border-radius: 6px;
+          background-color: #FFFFFF;
+ }
+ .re-img{
+     width: 19.98px;
+          height: 19.98px;
+          top: 514px;
+          left: 1758px;
+          border-radius: 6px;
+          margin-right: 5px;
+ }
+ .re-text{
+     width: 56px;
+          height: 17px;
+          top: 514.83px;
+          left: 1782.98px;
+          font-family: 'Montserrat', sans-serif;
+               font-weight: 300;
+               font-size: 14px;
+               line-height: 17.07px;
+               color: #5555D8;
+               margin-left: 2px;
+ }
+
+ /* estadisticas body */
+
+ .cont-estadisticas{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     margin-top: 18px;
+          width: 1000px;
+          height: 330px;
+          border-radius: 6px;
+
+ }
+ /* estadistica 1*/
+ .estadistica1{
+     display: flex;
+     align-items: center;
+     width: 642px;
+          height: 322px;
+          top: 566px;
+          left: 852px;
+          background-color: #FFFFFF;
+               border-radius: 6px;
+ }
+ .est1-title{
+     width: 75px;
+          height: 17px;
+          top: 754px;
+          left: 864px;
+          font-family: 'Montserrat', sans-serif;
+               font-weight: 500;
+               font-size: 14px;
+               line-height: 17.07px;
+          color: #4545BC;
+     
+          transform: rotate(-90deg);
+          margin-left: -15px;
+ }
+ .bart1{
+
+     margin-left: -20px;
+     width: 590px;
+          height: 310px;
+          
+          top: 566px;
+          left: 851px;
+          background-color: #FFFFFF;
+          border-radius: 6px;
+          display: flex;
+          
+          justify-content: center;
+          align-items: center;
+ }
+/* estadistica 2*/
+ .estadistica2{
+     display: flex;
+     align-items: center;
+     width: 344px;
+          height: 322px;
+          top: 566px;
+          left: 1511px;
+          background-color: #FFFFFF;
+          border-radius: 6px;
+ }
+ .est2-title{
+     width: 102px;
+          height: 17px;
+          top: 769px;
+          left: 1529px;
+          font-family: 'Montserrat', sans-serif;
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 17.07px;
+          color: #4545BC;
+          margin-left: -25px;
+          transform: rotate(-90deg);
+ }
+ .bart2{
+     margin-left:-40px ;
+     width: 285px;
+          height: 315px;
+          top: 585px;
+          left: 1607px;
+          
+     border-radius: 6px;
+ }

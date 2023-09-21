@@ -1,0 +1,63 @@
+* {
+     font-family: 'Montserrat', sans-serif;
+}
+
+
+.const-sw {
+
+
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     height: 18.5px;
+     width: 37px;
+     top: 986px;
+     left: 1481px;
+     border-radius: 12.07px;
+     border: 0.4px solid #7B8794;
+     background-color: #FFFFFF;
+     transition: .3s all;
+}
+
+.const-sw.isSelected {
+     justify-content: flex-end;
+     border: 0.4px solid #4545BC;
+}
+
+.switch-br {
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: center;
+     height: 18.5px;
+     width: 18.5px;
+     top: 986px;
+     left: 1481px;
+     border-radius: 100%;
+     motion-rotation: 0;
+     border: 0.4px solid #7B8794;
+     background-color: #FFFFFF;
+     transition: .3s border;
+}
+
+.switch-br .isSelected {
+     border: 0.4px solid #4545BC;
+}
+
+.switch {
+     display: block;
+     height: 16.98px;
+     width: 16.98px;
+     top: 986.8px;
+     left: 1481.8px;
+     border-radius: 100%;
+     motion-rotation: 0;
+     background-color: #7B8794;
+     transition: .3s background-color;
+
+}
+
+.switch.isSelected {
+     background-color: #4545BC;
+
+}

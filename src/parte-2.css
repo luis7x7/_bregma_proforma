@@ -1,0 +1,72 @@
+
+*{
+     font-family: 'Montserrat', sans-serif;
+}
+
+.pf-pt2{
+     margin-top: 10px;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     width: 1029px;
+     height: 75px;
+     top: 960px;
+     left: 839px;
+     border-radius:14px ;
+     background-color: #EBEFFD;
+}
+.pf-pt2-fecha{
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     margin-right: 200px;
+}
+.pf-pt2-fecha .fecha{
+     margin-left: 20px;
+     margin-right: 10px;
+     
+     width: 221px;
+     height: 19px;
+     top: 986px;
+     left: 865px;
+     
+     font-weight: 400;
+     font-size: 13.5px;
+     line-height: 13.5px;
+     color: #5555D8;
+}
+.img-btn{
+     width: 32px;
+     height: 32px;
+}
+.servicios{
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: center;
+}
+.serv-off{
+     width: 112px;
+          height: 19px;
+          top: 986px;
+          left: 1351px;
+          font-family: 'Montserrat', sans-serif;
+          font-weight: 400;
+          font-size: 13.5px;
+          line-height: 18.9px;
+          color: #5555D8;
+          margin-right: 10px;
+}
+.serv-on {
+     margin-left: 10px;
+     width:96px;
+     height: 19px;
+     top: 986px;
+     left: 1527px;
+     
+     font-weight: 400;
+     font-size: 13.5px;
+     line-height: 18.9px;
+     color: #4545BC;
+     margin-right: 10px;
+}
